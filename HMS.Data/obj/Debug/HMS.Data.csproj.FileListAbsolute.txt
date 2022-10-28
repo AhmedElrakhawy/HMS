@@ -1,0 +1,17 @@
+D:\My work\Projects\HMS\HMS.Data\bin\Debug\HMS.Data.dll.config
+D:\My work\Projects\HMS\HMS.Data\bin\Debug\HMS.Data.dll
+D:\My work\Projects\HMS\HMS.Data\bin\Debug\HMS.Data.pdb
+D:\My work\Projects\HMS\HMS.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\My work\Projects\HMS\HMS.Data\bin\Debug\EntityFramework.dll
+D:\My work\Projects\HMS\HMS.Data\obj\Debug\HMS.Data.csproj.AssemblyReference.cache
+D:\My work\Projects\HMS\HMS.Data\obj\Debug\HMS.Data.csproj.CoreCompileInputs.cache
+D:\My work\Projects\HMS\HMS.Data\obj\Debug\HMS.Data.csproj.CopyComplete
+D:\My work\Projects\HMS\HMS.Data\obj\Debug\HMS.Data.dll
+D:\My work\Projects\HMS\HMS.Data\obj\Debug\HMS.Data.pdb
+D:\My work\Projects\HMS\HMS.Data\bin\Debug\HMS.Entities.dll
+D:\My work\Projects\HMS\HMS.Data\bin\Debug\HMS.Entities.pdb
+D:\My work\Projects\HMS\HMS.Data\obj\Debug\HMS.Data.Migrations.Intial.resources
+D:\My work\Projects\HMS\HMS.Data\obj\Debug\HMS.Data.csproj.GenerateResource.cache
+D:\My work\Projects\HMS\HMS.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\My work\Projects\HMS\HMS.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\My work\Projects\HMS\HMS.Data\obj\Debug\HMS.Data.Migrations.changingidentityUser.resources

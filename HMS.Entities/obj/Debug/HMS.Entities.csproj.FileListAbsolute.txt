@@ -1,0 +1,11 @@
+D:\My work\Projects\HMS\HMS.Entities\bin\Debug\HMS.Entities.dll
+D:\My work\Projects\HMS\HMS.Entities\bin\Debug\HMS.Entities.pdb
+D:\My work\Projects\HMS\HMS.Entities\obj\Debug\HMS.Entities.csproj.AssemblyReference.cache
+D:\My work\Projects\HMS\HMS.Entities\obj\Debug\HMS.Entities.csproj.CoreCompileInputs.cache
+D:\My work\Projects\HMS\HMS.Entities\obj\Debug\HMS.Entities.dll
+D:\My work\Projects\HMS\HMS.Entities\obj\Debug\HMS.Entities.pdb
+D:\My work\Projects\HMS\HMS.Entities\bin\Debug\EntityFramework.SqlServer.dll
+D:\My work\Projects\HMS\HMS.Entities\bin\Debug\EntityFramework.dll
+D:\My work\Projects\HMS\HMS.Entities\obj\Debug\HMS.Entities.csproj.CopyComplete
+D:\My work\Projects\HMS\HMS.Entities\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\My work\Projects\HMS\HMS.Entities\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll

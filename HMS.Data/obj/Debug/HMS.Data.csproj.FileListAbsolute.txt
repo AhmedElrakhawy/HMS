@@ -15,3 +15,4 @@ D:\My work\Projects\HMS\HMS.Data\obj\Debug\HMS.Data.csproj.GenerateResource.cach
 D:\My work\Projects\HMS\HMS.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 D:\My work\Projects\HMS\HMS.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
 D:\My work\Projects\HMS\HMS.Data\obj\Debug\HMS.Data.Migrations.changingidentityUser.resources
+D:\My work\Projects\HMS\HMS.Data\obj\Debug\HMS.Data.Migrations.BaseNameColumnChangedToBeRequired.resources

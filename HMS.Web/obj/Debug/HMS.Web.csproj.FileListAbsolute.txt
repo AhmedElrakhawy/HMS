@@ -88,3 +88,5 @@ D:\My work\Projects\HMS\HMS.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPl
 D:\My work\Projects\HMS\HMS.Web\obj\Debug\HMS.Web.csproj.CopyComplete
 D:\My work\Projects\HMS\HMS.Web\obj\Debug\HMS.Web.dll
 D:\My work\Projects\HMS\HMS.Web\obj\Debug\HMS.Web.pdb
+D:\My work\Projects\HMS\HMS.Web\bin\HMS.Services.dll
+D:\My work\Projects\HMS\HMS.Web\bin\HMS.Services.pdb

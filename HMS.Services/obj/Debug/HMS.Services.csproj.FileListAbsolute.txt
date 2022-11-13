@@ -1,0 +1,16 @@
+D:\My work\Projects\HMS\HMS.Services\bin\Debug\HMS.Services.dll
+D:\My work\Projects\HMS\HMS.Services\bin\Debug\HMS.Services.pdb
+D:\My work\Projects\HMS\HMS.Services\bin\Debug\EntityFramework.SqlServer.dll
+D:\My work\Projects\HMS\HMS.Services\bin\Debug\EntityFramework.dll
+D:\My work\Projects\HMS\HMS.Services\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\My work\Projects\HMS\HMS.Services\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\My work\Projects\HMS\HMS.Services\bin\Debug\HMS.Data.dll
+D:\My work\Projects\HMS\HMS.Services\bin\Debug\HMS.Entities.dll
+D:\My work\Projects\HMS\HMS.Services\bin\Debug\HMS.Data.pdb
+D:\My work\Projects\HMS\HMS.Services\bin\Debug\HMS.Data.dll.config
+D:\My work\Projects\HMS\HMS.Services\bin\Debug\HMS.Entities.pdb
+D:\My work\Projects\HMS\HMS.Services\obj\Debug\HMS.Services.csproj.AssemblyReference.cache
+D:\My work\Projects\HMS\HMS.Services\obj\Debug\HMS.Services.csproj.CoreCompileInputs.cache
+D:\My work\Projects\HMS\HMS.Services\obj\Debug\HMS.Services.csproj.CopyComplete
+D:\My work\Projects\HMS\HMS.Services\obj\Debug\HMS.Services.dll
+D:\My work\Projects\HMS\HMS.Services\obj\Debug\HMS.Services.pdb

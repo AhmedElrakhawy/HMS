@@ -50,6 +50,10 @@
     <Compile Include="Migrations\202210280208268_changingidentityUser.Designer.cs">
       <DependentUpon>202210280208268_changingidentityUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202211120211218_BaseNameColumnChangedToBeRequired.cs" />
+    <Compile Include="Migrations\202211120211218_BaseNameColumnChangedToBeRequired.Designer.cs">
+      <DependentUpon>202211120211218_BaseNameColumnChangedToBeRequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -76,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202210280208268_changingidentityUser.resx">
       <DependentUpon>202210280208268_changingidentityUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202211120211218_BaseNameColumnChangedToBeRequired.resx">
+      <DependentUpon>202211120211218_BaseNameColumnChangedToBeRequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

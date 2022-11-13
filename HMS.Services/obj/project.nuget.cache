@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "YKvYozQ4Bup+X8G37CuWD5TJV1ua5MM3kqqMkM+emgVCQ3DWc20IViXUVijj3Mmpjai+ozNYK9/o6FQSLvSYLQ==",
+  "success": true,
+  "projectFilePath": "D:\\My work\\Projects\\HMS\\HMS.Services\\HMS.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SOFT\\.nuget\\packages\\entityframework\\6.2.0\\entityframework.6.2.0.nupkg.sha512",
+    "C:\\Users\\SOFT\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
+    "C:\\Users\\SOFT\\.nuget\\packages\\microsoft.aspnet.identity.entityframework\\2.2.3\\microsoft.aspnet.identity.entityframework.2.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

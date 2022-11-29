@@ -18,8 +18,8 @@
                     <td>@AccomodationType.Name</td>
                     <td>@AccomodationType.Description</td>
                     <td>
-                        <a class="btn btn-success" id="EditBtn">Edit</a>
-                        <a class="btn btn-danger" id="DeleteBtn">Delete</a>
+                        <button data-href="@Url.Action("Action","AccomodationTypes",new { Id = AccomodationType.ID })" class="BtnData btn btn-success" data-toggle="modal" data-target="#actionModel" id="EditBtn"><i class="fa-sharp fa-solid fa-pen-to-square mr-1"></i>Edit</button>
+                        <button data-href="@Url.Action("Delete","AccomodationTypes",new { Id = AccomodationType.ID })" class="BtnData btn btn-danger" data-toggle="modal" data-target="#actionModel" id="DeleteBtn"><i class="fa-sharp fa-solid fa-trash mr-1"></i>Delete</button>
                     </td>
                 </tr>
             }

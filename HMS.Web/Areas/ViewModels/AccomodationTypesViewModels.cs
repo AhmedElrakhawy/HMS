@@ -10,6 +10,7 @@ namespace HMS.Web.Areas.ViewModels
     public class AccomodationTypesListingViewModel
     {
         public List<AccomodationType> AccomodationTypes { get; set; }
+        public string SearchTerm { get; set; }
     }
     public class AccomodationTypesActionViewModel
     {

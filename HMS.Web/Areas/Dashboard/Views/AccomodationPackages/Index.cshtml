@@ -1,11 +1,11 @@
-﻿@model HMS.Web.Areas.ViewModels.AccomodationTypesListingViewModel
+﻿@model HMS.Web.Areas.ViewModels.AccomodationPackagesListingViewModel
 @{
     ViewBag.Title = "Index";
 }
 
 <div class="row mb-3">
     <div class="col col-lg-12">
-        <h2>AccomodatioTypes</h2>
+        <h2>Accomodation Packages</h2>
         <hr />
     </div>
 </div>
@@ -14,11 +14,11 @@
     <div class="col col-lg-12">
         <form>
             <div class="input-group">
-                <input type="text" name="SearchTerm" class="form-control" placeholder="Search" value="@Model.SearchTerm" required/>
+                <input type="text" name="SearchTerm" class="form-control" placeholder="Search" value="@Model.SearchTerm" required />
                 <div class="input-group-prepend">
                     <button type="submit" name="SearchTerm" class="btn btn-outline-primary"><i class="fa-solid fa-magnifying-glass mr-1"></i>Search</button>
-                    <a href="@Url.Action("Index","AccomodationTypes")" class="btn btn-outline-secondary"><i class="fa-sharp fa-solid fa-rotate-right mr-1"></i>Reset</a>
-                    <button data-href="@Url.Action("Action","AccomodationTypes")" type="button" class="BtnData btn btn-outline-success" data-toggle="modal" data-target="#actionModel"><i class="fa-solid fa-plus mr-1"></i>Create</button>
+                    <a href="@Url.Action("Index","AccomodationPackages")" class="btn btn-outline-secondary"><i class="fa-sharp fa-solid fa-rotate-right mr-1"></i>Reset</a>
+                    <button data-href="@Url.Action("Action","AccomodationPackages")" type="button" class="BtnData btn btn-outline-success" data-toggle="modal" data-target="#actionModel"><i class="fa-solid fa-plus mr-1"></i>Create</button>
                 </div>
             </div>
         </form>
@@ -27,13 +27,13 @@
 
 <div class="row">
     <div class="col col-lg-12">
-        @{ Html.RenderPartial("_Listing",Model);}
+        @{ Html.RenderPartial("_Listing", Model);}
     </div>
 </div>
 
 <div class="modal fade" id="actionModel" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
-       
+
     </div>
 </div>
 

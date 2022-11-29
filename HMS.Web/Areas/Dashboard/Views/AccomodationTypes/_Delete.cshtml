@@ -1,0 +1,46 @@
+﻿@model HMS.Entities.AccomodationType
+
+@if (Model != null)
+{
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">
+                <span>Delete Accomodation Types</span>
+            </h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <form id="actionForm">
+                <input type="hidden" value="@Model.ID" />
+                <div class="alert alert-danger" role="alert">
+                    Are u sure you want to delete this Accomodation Type ?
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button id="DeleteBtn" type="button" class="DeleteBtn btn btn-danger">Delete</button>
+        </div>
+    </div>
+}
+
+
+<script>
+    $(".DeleteBtn").click(function () {
+        debugger;
+        $.ajax({
+            url: "@Url.Action("Delete","AccomodationTypes")",
+            type: "POST",
+            data: $("#actionForm").serialize()
+        }).done(function (response) {
+            if (response.Success) {
+                window.location.href = "@Url.Action("Index","AccomodationTypes")";
+            }
+            else {
+
+            }
+        });
+    });
+</script>

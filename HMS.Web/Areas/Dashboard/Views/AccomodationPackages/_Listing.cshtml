@@ -1,0 +1,51 @@
+﻿@model HMS.Web.Areas.ViewModels.AccomodationPackagesListingViewModel
+
+
+@if (Model != null && Model.AccomodationPackages != null && Model.AccomodationPackages.Count() > 0)
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Accomodation Type</th>
+                <th scope="col">Number of rooms</th>
+                <th scope="col">Fee Per Night</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var AccomodationPackage in Model.AccomodationPackages)
+            {
+            <tr>
+                <td>@AccomodationPackage.Name</td>
+                <td>@Model.AccomodationTypes.FirstOrDefault(x => x.ID == AccomodationPackage.AccomodationTypeID).Name</td>
+                <td>@AccomodationPackage.NumOfRoom</td>
+                <td>@AccomodationPackage.FeePerNight</td>
+                <td>
+                    <button data-href="@Url.Action("Action","AccomodationPackages",new { Id = AccomodationPackage.ID })" class="BtnData btn btn-success" data-toggle="modal" data-target="#actionModel" id="EditBtn"><i class="fa-sharp fa-solid fa-pen-to-square mr-1"></i>Edit</button>
+                    <button data-href="@Url.Action("Delete","AccomodationPackages",new { Id = AccomodationPackage.ID })" class="BtnData btn btn-danger" data-toggle="modal" data-target="#actionModel" id="DeleteBtn"><i class="fa-sharp fa-solid fa-trash mr-1"></i>Delete</button>
+                </td>
+            </tr>
+            }
+
+        </tbody>
+    </table>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Accomodation Type</th>
+                <th scope="col">Number of rooms</th>
+                <th scope="col">Fee Per Night</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+    </table>
+    <div class="alert alert-warning" role="alert">
+        Sorry! No records available
+    </div>
+}
+

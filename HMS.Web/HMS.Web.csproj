@@ -167,9 +167,11 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Areas\Dashboard\Controllers\AccomodationPackagesController.cs" />
     <Compile Include="Areas\Dashboard\Controllers\AccomodationTypesController.cs" />
     <Compile Include="Areas\Dashboard\Controllers\DashboardController.cs" />
     <Compile Include="Areas\Dashboard\DashboardAreaRegistration.cs" />
+    <Compile Include="Areas\ViewModels\AccomodationPackagesViewModels .cs" />
     <Compile Include="Areas\ViewModels\AccomodationTypesViewModels.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -230,10 +232,15 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="Areas\Dashboard\Views\AccomodationTypes\Index.cshtml" />
-    <Content Include="Areas\Dashboard\Views\AccomodationTypes\_Listing.cshtml" />
     <Content Include="Areas\Content\bootstrap.css.map" />
     <Content Include="Areas\Content\jquery-3.4.1.min.map" />
     <Content Include="Areas\Dashboard\Views\AccomodationTypes\_Action.cshtml" />
+    <Content Include="Areas\Dashboard\Views\AccomodationTypes\_Listing.cshtml" />
+    <Content Include="Areas\Dashboard\Views\AccomodationTypes\_Delete.cshtml" />
+    <Content Include="Areas\Dashboard\Views\AccomodationPackages\Index.cshtml" />
+    <Content Include="Areas\Dashboard\Views\AccomodationPackages\_Action.cshtml" />
+    <Content Include="Areas\Dashboard\Views\AccomodationPackages\_Delete.cshtml" />
+    <Content Include="Areas\Dashboard\Views\AccomodationPackages\_Listing.cshtml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\fontawesome\all.js" />
     <Content Include="Scripts\fontawesome\all.min.js" />
@@ -312,6 +319,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Dashboard\Data\" />
+    <Folder Include="Areas\Dashboard\Views\AccomodationPackage\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

@@ -17,6 +17,7 @@
     <script src="~/Areas/Content/js/scripts.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
     <div class="d-flex" id="wrapper">
@@ -25,7 +26,10 @@
             <div class="sidebar-heading border-bottom bg-light"><i class="fa-solid fa-hotel mr-1"></i> HMS</div>
             <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="@Url.Action("Index","AccomodationTypes")">
-                    <i class="fa-solid fa-apartment "></i> Accomodation Types
+                    <i class="fa-solid fa-house-building"></i> Accomodation Types
+                </a>
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="@Url.Action("Index","AccomodationPackages")">
+                    <i class="fa-solid fa-house-building"></i> Accomodation Packages
                 </a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3" href="@Url.Action("Index","Roles")">
                     <i class="fa-duotone fa-users-gear "></i> Roles
